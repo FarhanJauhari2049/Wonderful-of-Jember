@@ -1,14 +1,126 @@
+Form {
+    font-family:Arial, Helvetica, sans-serif ; 
+}
+h1 {
+  text-align: center;
+}
+.register{
+  height: 100%;
+  background-size: 100%;
+}
+.kotak {
+  border:white solid 3px;
+  background-color:rgba(0,128,128, 0.7) ; 
+  width: 50%;
+  height: 70%;
+  margin: auto;
+  margin-top: 175px;
+}
+.email { 
+   text-align: left;
+   margin-right: 300px;
+}
+.masuk {
+   text-align: center;
+   margin: 50px;
+}
+.akun {
+   display: inline;
+   font-size: 15px;
+}
+.bg{
+    background-size: 100%;
+    height: 700px;
+}
+.KOTAK{
+    background-color:rgba(0,128,128, 0.7) ;
+    width: 550px;
+    margin-left: 300px;
+    height:420px ;
+    padding-left: 0;
+    padding-right: 70px;
+    margin-top: 120px;
+}
+.umum> div h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.ndp{
+    text-align: center;
+}
+.p1{
+    margin-right: 40px;
+}
+.p3{
+    margin-right: 40px;
+}
+.p4{
+    margin-right: 40px;
+    font-size: 13px;
+}
+.p5{
+  font-size: 13px;
+  margin-left: 30px;
+}
+#phone{
+   margin: 20px;
+}
+.ingat {
+   margin : 20px;
+   display: inline;
+   margin-right: 100px;
+}
+   #customers {
+     font-family: Arial, Helvetica, sans-serif;
+     border-collapse: collapse;
+     width: 100%;        
+     margin-top: 15%; 
+   }
+   #customers td, #customers th {
+     border: 2px solid black;
+     padding: 8px;
+   }
+   #customers tr:nth-child(even){background-color: #f2f2f2;}
+   
+   #customers th {
+     padding-top: 12px;
+     padding-bottom: 12px;
+     text-align: left;
+     background-color: #EEF210;
+     color: white;
+   }
 .wisata img{
     width: 100vw;
     height: 70vh;
     position: relative;
 }
-h1{
-    margin-top: 100px;
+.artikel>h1{
+    margin-top: 80px;
     text-align: center;
-} 
+    text-shadow: 3px 2px 1px black;
+    color: cornsilk;
+}
+.artikel>p{
+    margin-top: 0px;
+    text-align: center;
+    color: cornsilk;
+    font-weight: 900;
+}
+.artikel{
+    text-align: center;
+    background-size: 110%;
+    height: 600px;   
+    padding-top: 50px; 
+    }
+.artikel img{
+    width: 100vw;
+    height: 70vh;
+    margin-bottom: 50px;
+}
 p{
     padding: 0% 10%;
+    text-align: left;
+    font-size: x-large;
 }
 .topnav {
     overflow: hidden;
@@ -43,14 +155,98 @@ p{
                 -moz-box-shadow: 0px 13px 15px 0px rgba(0,0,0,0.75);
                 box-shadow: 0px 13px 15px 0px rgba(0,0,0,0.75);
                 text-align: center;
-              }
-a img.saran{
-                width: 100%;
-                height: 50%;
-           }    
+            }                           
+.saran-card img{
+    margin-top: 20px;
+    width: 80%;
+}
 #saranwisata{
             margin-top: 10vh;
             margin-bottom: -20%;;
             height: 70vh;
             width: 100vw;
-            background-color: #50CCB3;   
+            background-color: #50CCB3;  
+            }   
+.saran{
+    text-align: center;
+    font-size: x-large;
+    color: #50CCB3;
+}
+.navbar1>a{
+  font-size: large; 
+  color: black;
+  overflow: hidden;
+  width: 100vw;
+}
+.tentang{
+color: white;
+}
+.tentang > div img{
+  width: 80px;
+}
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  margin-top: 40px;
+  align-content: center;
+}
+.card{
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: 210px 210px 80px;
+  grid-template-areas: "image" "text" "stats";
+  font-family: 'quicksand', sans-serif;
+  border-radius: 18px;
+  background: white;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+  text-align: center;
+  width: fit-content;
+  margin-left: 120px;
+  align-content: center;
+  transition: 0.5s ease;
+  cursor: pointer;
+  width: 250px;
+  height: 280px;
+  margin-top: 30px;
+}  
+.card-image img{
+  margin-top: 120px;
+  margin-right: 50px;
+  width: 185px;
+}
+.card-text h1 {
+  font-size: 25px;
+  text-align: center;
+  margin-right: 50px;
+  margin-top: 60px;
+} 
+.card-text p{
+  font-size: 15px;
+  text-align: center;
+  margin-right: 50px;
+  padding: 10px;
+}
+.kartu{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+    font-family: 'quicksand', sans-serif;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+    width: fit-content;
+    margin-left: 120px;
+    align-content: center;
+    transition: 0.5s ease;
+    cursor: pointer;
+    width: 250px;
+    height: 280px;
+    margin-top: 30px;
+}
+.tulisawal > p{
+  text-align: center;
+  padding-bottom: 100px;
+}
